@@ -54,7 +54,7 @@ A) converting one variable data type to another.
 Ex: a = 5 (the data type of a is int)
     b = float(a) (the data type of a is converted to float)
  ```  
-<br>
+---
 
 ### Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
 A) using single input() we can take only one input from user. the input() method accepts only one input at a time.
