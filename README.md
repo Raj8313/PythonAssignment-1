@@ -12,16 +12,17 @@ A) Python is called general purpose language because, it can widely be used acro
  ---
 
 ### Q2. Why is Python called a dynamically typed language?
-A) It is dynamically typed language because the we don't have to declare the type of variable while assigning a    value to a variable. python don't have any problem even if we don't declare the type of variable.
+A) It is dynamically typed language because we don't have to declare the type of variable while assigning a    value to a variable. python don't have any problem even if we don't declare the type of variable.
 
 
 
 ---
 
 ### Q3. List some pros and cons of Python programming language?
-A) Pros : python is free and open source, it has vast collection of  libraries.
+A) <b>Pros</b> : python is free and open source, it has vast collection of  libraries.
           python is a general purpose and high-level programming lanugage i.e, it can be easily understood by humans.
-    Cons: since python is a dynamically typed we can expect errors during run time.
+          
+    <b>Cons</b>: since python is a dynamically typed we can expect errors during run time.
             code is executed line by line which makes it slower.
 
 
@@ -32,7 +33,7 @@ A) Python can be used in Big Data, Data science, Machine Learning, Artificial In
 ---
 
 ### Q5. What are variable and how can we declare them?
-A) variables are just like box or containers which stores a particular values. Just name a varialbe and assign a value to it, (data type will be automatically determined, we need not determine explicitly).
+A) variables are just like box or containers which stores a particular value. Just name a varialbe and assign a value to it, (data type will be automatically determined, we need not determine explicitly).
 
 ---
 
@@ -61,7 +62,7 @@ A) using single input() we can take only one input from user. the input() method
 
 ---
 
-## Q10. What are keywords?
+### Q10. What are keywords?
 A) keywords (or) special reserved words that have specific meaning and purpose and cannot used for anything else.
 Ex: return, True, False.
 
