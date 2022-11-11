@@ -19,10 +19,9 @@ A) It is dynamically typed language because we don't have to declare the type of
 ---
 
 ### Q3. List some pros and cons of Python programming language?
-A) <b>Pros</b> : python is free and open source, it has vast collection of  libraries.
-          python is a general purpose and high-level programming lanugage i.e, it can be easily understood by humans.
-          
-    <b>Cons</b> : since python is a dynamically typed we can expect errors during run time.
+A) **Pros** : python is free and open source, it has vast collection of  libraries.
+          python is a general purpose and high-level programming lanugage i.e, it can be easily understood by humans. <br>
+    **Cons** : since python is a dynamically typed we can expect errors during run time.
             code is executed line by line which makes it slower.
 
 
