@@ -271,6 +271,7 @@ str = "iNeuron"
 print(str.replace(str,""))
 
 ```
+---
 
 ### Q32. What is escape sequence?
 A) Escape characters or sequences are illegal characters for Python and never get printed as part of the output. When backslash is used in Python programming, it allows the program to escape the next characters.
