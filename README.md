@@ -211,3 +211,41 @@ else:
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
+
+
+### Q26. What is a string? How can we declare string in Python?
+A) String is one of the datatype in python, it is represented with single or double quotes.
+Ex: 'string'  or "string"
+
+
+### Q27. How can we access the string using its index?
+A) string is a squence type which means we can access string using its index values, using index number in square brackets we can access the string.
+Ex: 
+```
+str = iNeuron
+print(str[1])
+
+result : N
+
+```
+
+### Q28. Write a code to get the desired output of the following
+A) 
+```
+string = "Big Data iNeuron"
+desired_output = "iNeuron"
+
+print(string[9:])
+
+```
+
+### Q29. Write a code to get the desired output of the following.
+A) 
+```
+string = "Big Data iNeuron"
+desired_output = "norueNi"
+
+
+print(string[slice(None,-8,-1)])
+
+```
