@@ -286,3 +286,53 @@ print("'iNeuron's Big Data Course'")
 
 ```
 ---
+### Q34. What is a list in Python?
+A) List is used to store collections of data, it is a sequence data type. A list can be defined as a collection of values or items of different types.
+
+---
+
+### Q35. How can you create a list in Python?
+A) using square brackets we can create list in python.
+
+```
+lst = ["str", int, float]
+
+```
+
+---
+
+### Q36. How can we access the elements in a list?
+A) Each element in the list has index value, using those index values we can access the elements in list.
+
+```
+lst = ["str", 23, 24.5]
+print(lst[1])
+
+output : 23
+```
+
+---
+
+### Q37. Write a code to access the word "iNeuron" from the given list.
+A)
+```
+lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+print(lst[4][2])
+
+output : "iNeuron"
+```
+
+---
+
+### Q38. Take a list as an input from the user and find the length of the list.
+A) 
+```
+n = input("enter elements seperated by comma as input: ") # 1,2,3,4,5
+list_of_ele = n.split(",")
+print(len(list_of_ele))
+
+
+Step1 : we are accepting input as list separated by comma
+step2 : we are splitting it with comma using split method
+step3 : finally applying len() method 
+```
