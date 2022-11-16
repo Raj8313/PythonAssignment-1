@@ -336,3 +336,19 @@ Step1 : we are accepting input as list separated by comma
 step2 : we are splitting it with comma using split method
 step3 : finally applying len() method 
 ```
+---
+
+### Q39. Add the word "Big" in the 3rd index of the given list.
+A)
+```
+lst = ["Welcome", "to", "Data", "course"]
+lst.insert(2, "Big")
+print(lst)
+
+output : ['Welcome', 'to', 'Big', 'Data', 'course']
+```
+
+---
+
+### Q40. What is a tuple? How is it different from list?
+A) Tuples and List are used to store multiple items in a single variable. A tuple is a collection which is **ordered** and **unchangeable**. The key difference between tuples and lists is that **while tuples are immutable objects**, **lists are mutable**. This **means tuples cannot be changed while lists can be modified**. Tuples are also more memory efficient than the lists. When it comes to time efficiency, tuples have a slight advantage over lists.
