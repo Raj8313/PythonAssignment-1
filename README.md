@@ -212,11 +212,13 @@ else:
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
 
+---
 
 ### Q26. What is a string? How can we declare string in Python?
 A) String is one of the datatype in python, it is represented with single or double quotes.
 Ex: 'string'  or "string"
 
+---
 
 ### Q27. How can we access the string using its index?
 A) string is a squence type which means we can access string using its index values, using index number in square brackets we can access the string.
@@ -229,6 +231,8 @@ result : N
 
 ```
 
+---
+
 ### Q28. Write a code to get the desired output of the following
 A) 
 ```
@@ -238,6 +242,7 @@ desired_output = "iNeuron"
 print(string[9:])
 
 ```
+---
 
 ### Q29. Write a code to get the desired output of the following.
 A) 
@@ -249,7 +254,7 @@ desired_output = "norueNi"
 print(string[slice(None,-8,-1)])
 
 ```
-
+---
 
 ### Q30. Resverse the string given in the above question.
 A)
@@ -257,7 +262,7 @@ A)
 print(string[slice(None,-17,-1)])
 
 ```
-
+---
 
 ### Q31. How can you delete entire string at once?
 A)using **replace()** method we can delete entire string at once,
@@ -270,6 +275,7 @@ print(str.replace(str,""))
 ### Q32. What is escape sequence?
 A) Escape characters or sequences are illegal characters for Python and never get printed as part of the output. When backslash is used in Python programming, it allows the program to escape the next characters.
 
+---
 
 ### Q33. How can you print the below string?
 A)
@@ -278,4 +284,4 @@ A)
 print("'iNeuron's Big Data Course'")
 
 ```
-
+---
