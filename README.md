@@ -260,7 +260,7 @@ print(string[slice(None,-17,-1)])
 
 
 ### Q31. How can you delete entire string at once?
-A)using <b>replace()</br> method we can delete entire string at once,
+A)using **replace()** method we can delete entire string at once,
 ```
 str = "iNeuron"
 print(str.replace(str,""))
