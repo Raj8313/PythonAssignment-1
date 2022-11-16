@@ -351,4 +351,4 @@ output : ['Welcome', 'to', 'Big', 'Data', 'course']
 ---
 
 ### Q40. What is a tuple? How is it different from list?
-A) Tuples and List are used to store multiple items in a single variable. A tuple is a collection which is **ordered** and **unchangeable**. The key difference between tuples and lists is that **while tuples are immutable objects**, **lists are mutable**. This **_means tuples cannot be changed while lists can be modified_**. **_Tuples are also more memory efficient than the lists. When it comes to time efficiency, tuples have a slight advantage over lists__ **.
+A) Tuples and List are used to store multiple items in a single variable. A tuple is a collection which is **ordered** and **unchangeable**. The key difference between tuples and lists is that **while tuples are immutable objects**, **lists are mutable**. This **_means tuples cannot be changed while lists can be modified_**. **_Tuples are also more memory efficient than the lists. When it comes to time efficiency, tuples have a slight advantage over lists_** .
