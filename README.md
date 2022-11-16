@@ -249,3 +249,33 @@ desired_output = "norueNi"
 print(string[slice(None,-8,-1)])
 
 ```
+
+
+### Q30. Resverse the string given in the above question.
+A)
+```
+print(string[slice(None,-17,-1)])
+
+```
+
+
+### Q31. How can you delete entire string at once?
+A)using <b>replace()</br> method we can delete entire string at once,
+```
+str = "iNeuron"
+print(str.replace(str,""))
+
+```
+
+### Q32. What is escape sequence?
+A) Escape characters or sequences are illegal characters for Python and never get printed as part of the output. When backslash is used in Python programming, it allows the program to escape the next characters.
+
+
+### Q33. How can you print the below string?
+A)
+```
+'iNeuron's Big Data Course'
+print("'iNeuron's Big Data Course'")
+
+```
+
