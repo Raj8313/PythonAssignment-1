@@ -489,4 +489,55 @@ A) Dictionaries are used to store data values in key:value pairs written in curl
 
 ---
 
+### Q56. How is dictionary different from all other data structures.
+A) Dictionary is more memory efficient than other data structures in python. It is an **unordered collection of data values, used to store data values like a map, which, unlike other Data Types that hold only a single value as an element, Dictionary holds the key:value pair. Key-value is provided in the dictionary to make it more optimized**. Lookups are faster in dictionaries because Python implements them using hash tables.
 
+---
+
+### Q57. How can we delare a dictionary in Python?
+A) Dictionary can be declared using curly brackets, data will be stored as key value pairs.
+
+```
+my_dict = {"car1":"maruthi", "car2": "ford", "car3":"benz"}
+
+```
+
+---
+
+### Q58. What will the output of the following?
+A)
+```
+var = {}
+print(type(var))
+
+output : <class 'dict'>
+
+```
+
+---
+
+### Q59. How can we add an element in a dictionary?
+A) 
+```
+my_dict = {"car1":"maruthi", "car2": "ford", "car3":"benz"}
+my_dict["car4"] = "toyota"
+print(my_dict)
+
+output : {'car1': 'maruthi', 'car2': 'ford', 'car3': 'benz', 'car4': 'toyota'}
+
+```
+
+---
+
+### Q60. Create a dictionary and access all the values in that dictionary.
+A)
+```
+my_dict = {"car1":"maruthi", "car2": "ford", "car3":"benz"}
+my_dict["car4"] = "toyota"
+print(my_dict.items())
+
+output: dict_items([('car1', 'maruthi'), ('car2', 'ford'), ('car3', 'benz'), ('car4', 'toyota')])
+
+```
+
+---
