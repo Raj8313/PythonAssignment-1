@@ -401,7 +401,7 @@ A) Sets are used to store multiple items in a single variable. It is used to sto
 A) A set is created by placing all the  elements inside curly braces {} , separated by comma, or by using the built-in set() function. It can have any number of items and they may be of different types (integer, float, tuple, string etc.). **A set is mutable,** i.e., we can **remove or add elements to it**.
 
 ```
-new_set = {1,2,4,5,"str")
+new_set = {1,2,4,5,"str"}
 ```
 
 ---
@@ -446,12 +446,12 @@ A) clear() method is to remove all the elements from a set.
 ### Q51. What is frozen set?
 A) The frozenset() method returns an unchangeable frozenset object it is unchangeable.
 
---
+---
 
 ### Q52. How is frozen set different from set?
 A) Frozenset is similar to set in Python, except that **frozensets are immutable, which implies that once generated, elements from the frozenset cannot be added or removed**.
 
---
+---
 
 ### Q53. What is union() in sets? Explain via code.
 A) The union() method returns a set that contains all items from the original set, and all items from the specified set.
