@@ -352,3 +352,141 @@ output : ['Welcome', 'to', 'Big', 'Data', 'course']
 
 ### Q40. What is a tuple? How is it different from list?
 A) Tuples and List are used to store multiple items in a single variable. A tuple is a collection which is **ordered** and **unchangeable**. The key difference between tuples and lists is that **while tuples are immutable objects**, **lists are mutable**. This **_means tuples cannot be changed while lists can be modified_**. **_Tuples are also more memory efficient than the lists. When it comes to time efficiency, tuples have a slight advantage over lists_** .
+
+---
+
+### Q41. How can you create a tuple in Python? 
+A) A tuple in Python can be created by enclosing all the comma-separated elements inside the parenthesis (). Elements of the tuple are immutable and ordered. It allows duplicate values and can have any number of elements.
+```
+tup = (1,2,2,4,5,6)
+
+```
+---
+
+### Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason. 
+A) No, we cannot add any element once Tuple is created because, Tuple is immutable i.e, it cannot be changed once created.
+
+---
+
+### Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
+A) Yes, we can append two tuples.
+
+```
+tup_1 = (1,2,3,4,5)
+tup_2 = (6,7,8,9)
+print(tup_1 + tup_2)
+
+output : (1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+```
+
+---
+
+### Q44. Take a tuple as an input and print the count of elements in it.
+A) 
+```
+tup = tuple(input("enter comma separated values: ").split(","))
+print(len(tup))
+
+```
+
+---
+
+### Q45. What are sets in Python?
+A) Sets are used to store multiple items in a single variable. It is used to store collections of data. A set is a collection which is **unordered**, **unchangeable**, and **unindexed**.
+
+---
+
+### Q46. How can you create a set?
+A) A set is created by placing all the  elements inside curly braces {} , separated by comma, or by using the built-in set() function. It can have any number of items and they may be of different types (integer, float, tuple, string etc.). **A set is mutable,** i.e., we can **remove or add elements to it**.
+
+```
+new_set = {1,2,4,5,"str")
+```
+
+---
+
+### Q47. Create a set and add "iNeuron" in your set.
+A) 
+```
+my_set = {1,2,3,4}
+my_set.add("iNeuron")
+print(my_set)
+
+output : {1, 2, 3, 4, 'iNeuron'}
+
+```
+
+---
+
+### Q48. Try to add multiple values using add() function.
+A) 
+```
+my_set = {1,2,3,4}
+my_set_2 = {10,11,12}
+my_set.update(my_set_2)
+print(my_set)
+
+output : {1, 2, 3, 4, 10, 11, 12}
+
+```
+
+---
+
+### Q49. How is update() different from add()?
+A) update() method is to add multiple elements to a set, whereas add() method is to add only one element to a set.
+
+---
+
+### Q50. What is clear() in sets?
+A) clear() method is to remove all the elements from a set.
+
+---
+
+### Q51. What is frozen set?
+A) The frozenset() method returns an unchangeable frozenset object it is unchangeable.
+
+--
+
+### Q52. How is frozen set different from set?
+A) Frozenset is similar to set in Python, except that **frozensets are immutable, which implies that once generated, elements from the frozenset cannot be added or removed**.
+
+--
+
+### Q53. What is union() in sets? Explain via code.
+A) The union() method returns a set that contains all items from the original set, and all items from the specified set.
+```
+my_set = {1,2,3,4}
+my_set_2 = {10,11,12}
+my_set_3 = {10,11,4}
+
+
+result = my_set.union(my_set_2, my_set_3)
+print(result)
+
+output : {1, 2, 3, 4, 10, 11, 12}
+
+```
+
+---
+
+### Q54. What is intersection() in sets? Explain via code.
+A) The intersection() method returns a new set with elements that are common to all sets.
+
+```
+my_set_2 = {10,11,12,4}
+my_set_3 = {10,11,4}
+print(my_set_2.intersection(my_set_3))
+
+output : {10, 11, 4}
+
+```
+
+---
+
+### Q55. What is dictionary in Python?
+A) Dictionaries are used to store data values in key:value pairs written in curly brackets. It is **ordered**, **changeable** and **do not allow duplicates**.
+
+---
+
+
