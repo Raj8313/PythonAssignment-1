@@ -541,3 +541,117 @@ output: dict_items([('car1', 'maruthi'), ('car2', 'ford'), ('car3', 'benz'), ('c
 ```
 
 ---
+
+
+### Q61. Create a nested dictionary and access all the element in the inner dictionary.
+A)
+```
+
+my_dict = {"cars":{"car1":"maruthi", "car2":"ford"}, "bike1": "honda"}
+
+print(my_dict["cars"]["car1"])
+
+output : maruthi
+
+```
+---
+
+### Q62. What is the use of get() function?
+A) The get() method returns the value of the item with the specified key.
+
+```
+my_dict = {"cars":{"car1":"maruthi", "car2":"ford"}, "bike1": "honda"}
+print(my_dict.get("bike1"))
+
+output : honda
+
+```
+
+---
+
+### Q63. What is the use of items() function?
+A) The **items() method returns a view object**. The view object contains the **key-value pairs of the dictionary, as tuples in a list** .
+
+```
+my_dict = {"cars":{"car1":"maruthi", "car2":"ford"}, "bike1": "honda"}
+print(my_dict.items())
+
+output: dict_items([('cars', {'car1': 'maruthi', 'car2': 'ford'}), ('bike1', 'honda')])
+
+```
+
+---
+
+### Q64. What is the use of pop() function?
+A) The pop() method removes the element at the specified position. 
+
+```
+my_dict = {"cars":{"car1":"maruthi", "car2":"ford"}, "bike1": "honda"}
+print("the poped value is :", my_dict.pop("bike1"))
+print("the dicitionary after applying pop method : ", my_dict)
+
+output : the poped value is : honda
+         the dicitionary after pop method :  {'cars': {'car1': 'maruthi', 'car2': 'ford'}}
+         
+```
+
+---
+
+### Q65. What is the use of popitems() function?
+A) The Python popitem() method removes and returns the last element (key, value) pair inserted into the dictionary.
+
+```
+my_dict = {"cars":{"car1":"maruthi", "car2":"ford"}, "bike1": "honda"}
+print(my_dict.popitem())
+
+output : ('cars', {'car1': 'maruthi', 'car2': 'ford'})
+
+```
+
+---
+
+### Q66. What is the use of keys() function?
+A) The keys() method extracts the keys of the dictionary and returns the list of keys as a view object.
+
+```
+my_dict = {"cars":{"car1":"maruthi", "car2":"ford"}, "bike1": "honda"}
+print(my_dict.keys())
+
+output : dict_keys(['cars', 'bike1'])
+
+```
+
+---
+
+### Q67. What is the use of values() function?
+A) The values() method returns a view object that displays a list of all the values in the dictionary.
+
+```
+my_dict = {"cars":{"car1":"maruthi", "car2":"ford"}, "bike1": "honda"}
+print(my_dict.values())
+
+output : dict_values([{'car1': 'maruthi', 'car2': 'ford'}, 'honda'])
+
+```
+
+---
+
+### Q68. What are loops in Python?
+A) Looping means repeating something over and over until a particular condition is satisfied.
+
+---
+
+### Q69. How many type of loop are there in Python?
+A) There are 3 types of loops in Python : 
+1. For loop - A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+2. While loop - With the while loop we can execute a set of statements as long as a condition is true.
+3. Nested loop - A nested loop is a loop inside a loop. The "inner loop" will be executed one time for each iteration of the "outer loop".
+
+---
+
+### Q70. What is the difference between for and while loops?
+A)A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string), whereas with the while loop we can execute a set of statements as long as a condition is true.
+
+---
+
+### 
