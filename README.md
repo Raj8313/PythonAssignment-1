@@ -208,8 +208,22 @@ else:
 - If the number is greater than 150, then skip it and move to the next number
 
 - If the number is greater than 500, then stop the loop
+
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
+
+for element in numbers:
+    if element > 500:
+        break
+    elif element > 150:
+        continue
+    elif element % 5 == 0:
+        print(element)
+        
+ output : 75
+          150
+          145
+
 ```
 
 ---
@@ -691,4 +705,81 @@ output : cars
 
 ---
 
-## Coding problems
+# Coding problems
+
+### Q76. Write a Python program to find the factorial of a given number.
+A)
+
+```
+num = int(input("Enter a number: "))    
+factorial = 1    
+if num < 0:    
+   print(" Factorial does not exist for negative numbers")    
+elif num == 0:    
+   print("The factorial of 0 is 1")    
+else:    
+   for i in range(1,num + 1):    
+       factorial = factorial*i    
+   print("The factorial of",num,"is",factorial)   
+   
+   
+  output : Enter a number: 5
+           The factorial of 5 is 120
+           
+```
+
+---
+
+### Q77. Write a Python program to calculate the simple interest. Formula to calculate simple interest is SI = (PRT)/100
+A) 
+
+```
+principle = int(input("enter principle amount: "))
+rate = float(input("enter  rate of interest %: "))
+time = float(input("enter  time: "))
+
+print(principle*rate*time/100)
+
+output : enter principle amount: 500
+         enter principle rate: 15
+         enter principle time: 2
+         150.0
+         
+```
+
+---
+
+### Q78. Write a Python program to calculate the compound interest. Formula of compound interest is A = P(1+ R/100)^t.
+A) 
+
+```
+```
+
+---
+
+### Q79. Write a Python program to check if a number is prime or not.
+A)
+```
+num = int(input("enter a number: "))
+
+
+if num > 1:
+    for i in range(2,num): 
+        # print(f"{num}/{i}") 
+        if num % i == 0:
+            print("not prime")
+            break
+    else:
+        print("it is prime")
+        
+  output : enter a number: 29
+           it is prime
+           
+```
+
+---
+
+### Q80. Write a Python program to check Armstrong Number.
+A)
+
+```
