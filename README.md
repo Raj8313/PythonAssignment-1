@@ -654,4 +654,41 @@ A)A for loop is used for iterating over a sequence (that is either a list, a tup
 
 ---
 
-### 
+### Q71. What is the use of continue statement?
+A) The continue keyword is used to end the current iteration in a for loop or a while loop, and continues to the next iteration.
+
+---
+
+
+### Q72. What is the use of break statement?
+A) It is used to control the sequence of the loop. Suppose you want to terminate a loop and skip to the next code after the loop; break will help you do that.
+
+---
+
+### Q73. What is the use of pass statement?
+A) The pass statement is used as a placeholder for future code. When the pass statement is executed, nothing happens, but you avoid getting an error when empty code is not allowed.
+
+
+---
+
+### Q74. What is the use of range() function?
+A) The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+
+---
+
+### Q75. How can you loop over a dictionary?
+A) Using for loop we can loop over a dictionary.
+
+```
+my_dict = {"cars":{"car1":"maruthi", "car2":"ford"}, "bike1": "honda"}
+for i in my_dict:
+    print(i)
+    
+output : cars
+         bike1
+         
+```
+
+---
+
+## Coding problems
