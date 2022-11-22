@@ -818,4 +818,218 @@ else:
   output : Enter a number: 23
           23 is not an Armstrong number 
  ```
+ 
+---
+
+### Q81. Write a Python program to find the n-th Fibonacci Number.
+A)
+```
+def solve(n):
+   if n <= 2:
+      return n - 1
+   else:
+      return solve(n - 1) + solve(n - 2)
+
+n = 8
+print(solve(n))
+
+output : 13
+```
+---
+
+### Q82. Write a Python program to interchange the first and last element in a list.
+A) 
+
+```
+def swapList(newList):
+	size = len(newList)
+	
+	
+	temp = newList[0]
+	newList[0] = newList[size - 1]
+	newList[size - 1] = temp
+	
+	return newList
+	
+
+newList = [12, 35, 9, 56, 24]
+
+print(swapList(newList))
+
+
+output : [24, 35, 9, 56, 12]
+
+```
+
+---
+
+### Q83. Write a Python program to swap two elements in a list.
+A)
+
+```
+def swapPositions(list, pos1, pos2):
+     
+    list[pos1], list[pos2] = list[pos2], list[pos1]
+    return list
+ 
+
+List = [23, 65, 19, 90]
+pos1, pos2  = 1, 3
+ 
+print(swapPositions(List, pos1-1, pos2-1))
+
+output : [19, 65, 23, 90]
+
+```
+---
+
+### Q84. Write a Python program to find N largest element from a list.
+A)
+
+```
+
+list_1 = [10, 20, 4, 45, 99]
+
+
+list_1.sort()
+
+
+print("Largest element is:", list_1[-1])
+
+
+output : Largest element is: 99
+
+```
+
+---
+
+### Q85. Write a Python program to find cumulative sum of a list.
+A)
+
+```
+
+def Cumulative(lists):
+	cu_list = []
+	length = len(lists)
+	cu_list = [sum(lists[0:x:1]) for x in range(0, length+1)]
+	return cu_list[1:]
+
+
+lists = [10, 20, 30, 40, 50]
+print (Cumulative(lists))
+
+output : [10, 30, 60, 100, 150]
+
+```
+
+---
+
+### Q86. Write a Python program to check if a string is palindrome or not.
+A)
+
+```
+
+
+def isPalindrome(s):
+	return s == s[::-1]
+
+
+
+s = "malayalam"
+ans = isPalindrome(s)
+
+if ans:
+	print("Yes")
+else:
+	print("No")
+ 
+ 
+ output : yes
+ 
+ ```
+ 
+ ---
+ 
+ ### Q87. Write a Python program to remove i'th element from a string.
+ A)
+ 
+ ```
+def remove(string, i):
+
+	for j in range(len(string)):
+		if j == i:
+			string = string.replace(string[i], "", 1)
+	return string
+	
+
+if __name__ == '__main__':
+	
+	string = "iNeuron"
+	
+	# Remove nth index element
+	i = 0
+	
+
+	print(remove(string, i))
+
+output : Neuron
+
+```
+
+---
+
+### Q88. Write a Python program to check if a substring is present in a given string.
+A)
+
+```
+my_string = "Big data bootcamp at iNeuron"
+ 
+if "at" in my_string:
+    print("Yes, it is present in the string")
+else:
+    print("No, it is not present")
+
+output : Yes, it is present in the string
+
+```
+
+### Q89. Write a Python program to find words which are greater than given length k.
+A)
+
+```
+sentence = "Big Data Bootcamp at iNeuron"
+length = 3
+print([word for word in sentence.split() if len(word) > length])
+
+
+output : ['Data', 'Bootcamp', 'iNeuron']
+
+```
+
+---
+
+### Q90. write a python program to extract unique values dictionary values.
+A) 
+
+```
+my_dict = {'hi' : [5,3,8, 0],
+   'there' : [22, 51, 63, 77],
+   'how' : [7, 0, 22],
+   'are' : [12, 11, 45],
+   'you' : [56, 31, 89, 90]}
+
+
+
+my_result = list(sorted({elem for val in my_dict.values() for elem in val}))
+
+print("The unique values are : ", my_result)
+
+output : The unique values are :  [0, 3, 5, 7, 8, 11, 12, 22, 31, 45, 51, 56, 63, 77, 89, 90]
+
+```
+
+---
+
+### 
+
 
