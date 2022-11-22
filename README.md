@@ -992,6 +992,7 @@ else:
 output : Yes, it is present in the string
 
 ```
+---
 
 ### Q89. Write a Python program to find words which are greater than given length k.
 A)
