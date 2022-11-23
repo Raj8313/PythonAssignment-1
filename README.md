@@ -1136,7 +1136,7 @@ for i in range(0, n):
             print("* ", end="")       
         print()  
 	
-	
+input 5	
 output :
 * 
 * * 
