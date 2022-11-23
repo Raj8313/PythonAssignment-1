@@ -1031,6 +1031,192 @@ output : The unique values are :  [0, 3, 5, 7, 8, 11, 12, 22, 31, 45, 51, 56, 63
 
 ---
 
-### 
+### Q91. Write a Python program to merge two dictionary.
+A)
+```
+dict_1 = {1: 'a', 2: 'b'}
+dict_2 = {2: 'c', 4: 'd'}
+
+print(dict_1 | dict_2)
+
+output : {1: 'a', 2: 'c', 4: 'd'}
+
+```
+
+---
+
+### Q92. Write a Python program to convert a list of tuples into dictionary.
+A)
+```
+Input : [('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]
+Output : {'Sachin': 10, 'MSD': 7, 'Kohli': 18, 'Rohit': 45}
 
 
+def to_dict(lt):
+    return dict(lt)
+
+
+lt = [('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]
+print(to_dict(lt))
+
+output : {'Sachin': 10, 'MSD': 7, 'Kohli': 18, 'Rohit': 45}
+
+```
+
+---
+
+Q93. Write a Python program to create a list of tuples from given list having number and its cube in each tuple.
+A)
+
+```
+Input: list = [9, 5, 6]
+Output: [(9, 729), (5, 125), (6, 216)]
+
+input = [9,5,6]
+
+
+lst_tup = []
+for element in input:
+    my_tup = (element, (element*element*element))
+    lst_tup.append(my_tup)
+
+print(lst_tup)
+
+```
+
+---
+
+## Q94. Write a Python program to get all combinations of 2 tuples.
+A) 
+
+```
+Input : test_tuple1 = (7, 2), test_tuple2 = (7, 8)
+Output : [(7, 7), (7, 8), (2, 7), (2, 8), (7, 7), (7, 2), (8, 7), (8, 2)]
+
+test_tuple1 = (7, 2)
+test_tuple2 = (7, 8)
+new_lst = [(a,b) for a in test_tuple1  for b in test_tuple2] 
+new_tup1 = new_lst + [(a,b) for a in test_tuple2  for b in test_tuple1]
+print(new_tup1)
+
+
+output : [(7, 7), (7, 8), (2, 7), (2, 8), (7, 7), (7, 2), (8, 7), (8, 2)]
+
+```
+
+---
+
+### Q95. Write a Python program to sort a list of tuples by second item.
+A)
+```
+Input : [('for', 24), ('Geeks', 8), ('Geeks', 30)] 
+Output : [('Geeks', 8), ('for', 24), ('Geeks', 30)]
+
+def sort_tup(tup):
+    tup.sort(key = lambda x:x[1])
+    return tup
+
+print(sort_tup([('for', 24), ('Geeks', 8), ('Geeks', 30)]))
+
+Output : [('Geeks', 8), ('for', 24), ('Geeks', 30)]
+
+```
+
+---
+
+### Q96. Write a python program to print below pattern.
+A)
+
+```
+ 
+n = int(input("Enter the number of rows"))  
+ 
+for i in range(0, n): 
+        for j in range(0, i + 1):   
+            print("* ", end="")       
+        print()  
+	
+	
+output :
+* 
+* * 
+* * * 
+* * * * 
+* * * * *
+
+```
+---
+### Q97. Write a python program to print below pattern.
+A)
+```
+
+
+```
+---
+
+Q98. Write a python program to print below pattern.
+A)
+
+```
+ 
+rows = int(input("Enter the number of rows:"))  
+k = 2 * rows - 2   
+for i in range(0, rows):  
+    for j in range(0, k):  
+        print(end=" ")  
+    k = k - 2    
+    for j in range(0, i + 1):  
+        print("* ", end="")    
+    print("")  
+    
+    
+output :
+      * 
+     * * 
+    * * * 
+   * * * * 
+  * * * * *
+
+```
+---
+### Q99. Write a python program to print below pattern.
+A)
+```
+rows = int(input("Enter number of rows: "))
+
+for i in range(rows):
+    for j in range(i+1):
+        print("* ", end="")
+    print("\n")
+    
+ output : 
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5
+
+```
+
+---
+
+### Q100. Write a python program to print below pattern.
+A)
+
+```
+rows = int(input("Enter number of rows: "))
+
+for i in range(rows):
+    for j in range(i+1):
+        print(j+1, end=" ")
+    print("\n")
+    
+output :
+A
+B B
+C C C
+D D D D
+E E E E E
+
+```
+---
